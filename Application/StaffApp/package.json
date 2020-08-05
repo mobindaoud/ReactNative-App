@@ -1,0 +1,56 @@
+{
+  "name": "firstproject",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.11.0",
+    "@react-native-community/geolocation": "^2.0.2",
+    "@react-native-community/masked-view": "^0.1.10",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.0",
+    "react": "16.9.0",
+    "react-native": "^0.61.5",
+    "react-native-dropdown": "0.0.6",
+    "react-native-geocoder-reborn": "^0.9.0",
+    "react-native-geocoding": "^0.4.0",
+    "react-native-geolocation-service": "^4.0.2",
+    "react-native-gesture-handler": "^1.6.1",
+    "react-native-google-maps-directions": "^2.1.1",
+    "react-native-linear-gradient": "^2.5.6",
+    "react-native-maps": "^0.27.1",
+    "react-native-maps-directions": "^1.8.0",
+    "react-native-maps-navigation": "0.0.13",
+    "react-native-masked-view": "^0.2.0",
+    "react-native-modal-dropdown": "^0.7.0",
+    "react-native-modals": "^0.19.9",
+    "react-native-reanimated": "^1.9.0",
+    "react-native-safe-area-context": "^0.6.4",
+    "react-native-screens": "^2.9.0",
+    "react-native-searchable-dropdown": "^1.1.1",
+    "react-native-text-gradient": "^0.1.7",
+    "react-navigation": "^4.4.0",
+    "react-navigation-drawer": "^2.5.0",
+    "react-navigation-stack": "^2.8.2"
+  },
+  "devDependencies": {
+    "@babel/core": "7.8.3",
+    "@babel/runtime": "7.8.3",
+    "@react-native-community/eslint-config": "0.0.5",
+    "babel-jest": "24.9.0",
+    "eslint": "6.8.0",
+    "jest": "24.9.0",
+    "metro-react-native-babel-preset": "0.56.4",
+    "react-test-renderer": "16.9.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
